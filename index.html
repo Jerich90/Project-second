@@ -40,9 +40,9 @@
             <h2 class="title title--fire">Горящие туры</h2>
             <ul class="offers__list">
               <li class="offers__item">
-                <img src="img/ocean.png" alt="hot-tour" class="offers_img">
+                <img src="img/ocean.png" alt="hot-tour" class="offers__img">
                 <div class="offers__content">
-                  <h4 class="offers-title">Тайланд</h4>
+                  <h4 class="offers__title">Тайланд</h4>
                   <div class="offers__features">
                     <div class="offers__feature">
                       <img src="img/calendar.png" alt="calendar" class="offers__feature-icon">
@@ -60,9 +60,9 @@
                 </div>
               </li>
               <li class="offers__item">
-                <img src="img/pool.png" alt="hot-tour" class="offers_img">
+                <img src="img/pool.png" alt="hot-tour" class="offers__img">
                 <div class="offers__content">
-                  <h4 class="offers-title">Бали</h4>
+                  <h4 class="offers__title">Бали</h4>
                   <div class="offers__features">
                     <div class="offers__feature">
                       <img src="img/calendar.png" alt="calendar" class="offers__feature-icon">
@@ -79,9 +79,9 @@
                   <a href="#" class="button button-light">Смотреть</a>
                 </div>
               </li><li class="offers__item">
-                <img src="img/river.png" alt="hot-tour" class="offers_img">
+                <img src="img/river.png" alt="hot-tour" class="offers__img">
                 <div class="offers__content">
-                  <h4 class="offers-title">Индонезия</h4>
+                  <h4 class="offers__title">Индонезия</h4>
                   <div class="offers__features">
                     <div class="offers__feature">
                       <img src="img/calendar.png" alt="calendar" class="offers__feature-icon">
@@ -99,26 +99,24 @@
                 </div>
               </li>
             </ul>
-            <ul class="offers__list"></ul>
-            <ul class="offers__list"></ul>
           </div>
         </section>
         <section class="news">
           <div class="conteiner">
-            <h2 class="title">Новости и акции</h2>
+            <h2 class="news__title">Новости и акции</h2>
             <ul class="news__list">
               <li class="news__item">
                 .<img src="img/plain.png" alt="news" class="news__img">
-                <div class="date">Декабрь 2019</div>
-                <h4 class="news-title">Дешевые путевки на Новый Год!</h4>
+                <div class="news__date">Декабрь 2019</div>
+                <h4 class="news__title">Дешевые путевки на Новый Год!</h4>
                 <p class="news__text">
                   Проведи новый год в Тайланде
                 </p>
               </li>
               <li class="news__item">
                 <img src="img/Surfer.png" alt="news" class="news__img">
-                <div class="date">Декабрь 2019</div>
-                <h4 class="news-title">Акция для серфенгистов!</h4>
+                <div class="news__date">Декабрь 2019</div>
+                <h4 class="news__title">Акция для серфенгистов!</h4>
                 <p class="news__text">
                   В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!
                 </p>
@@ -126,29 +124,31 @@
             </ul>
             <div class="pagination">
               <div class="pagination__info">
-                Страница <span class="pagination__index">1</span> из <span class="pagination__count">7</span>
+                Страница <url class="pagination__index">1</url> из <url class="pagination__count">7</url>
               </div>
               <ul class="pagination__list">
-                <li class="pagination__item"><span class="pagination__number">1</span></li>
-                <li class="pagination__item"><span class="pagination__number">2</span></li>
-                <li class="pagination__item"><span class="pagination__number">3</span></li>
-                <li class="pagination__item"><span class="pagination__number">4</span></li>
-                <li class="pagination__item"><span class="pagination__number">5</span></li>
-                <li class="pagination__item"><span class="pagination__number">6</span></li>
-                <li class="pagination__item"><span class="pagination__number">7</span></li>
+                <li class="pagination__item"><url class="pagination__number">1</url></li>
+                <li class="pagination__item"><url class="pagination__number">2</url></li>
+                <li class="pagination__item"><url class="pagination__number">3</url></li>
+                <li class="pagination__item"><url class="pagination__number">4</url></li>
+                <li class="pagination__item"><url class="pagination__number">5</url></li>
+                <li class="pagination__item"><url class="pagination__number">6</url></li>
+                <li class="pagination__item"><url class="pagination__number">7</url></li>
               </ul>
             </div>
           </div>
         </section>
         <section class="about">
           <div class="conteiner">
-            <h2 class="title">О нас</h2>
+            <div class="about__block">
+            <h2 class="about__title">О нас</h2>
             <p class="about__text">
               Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько 
               абзацев более менее осмысленного текста рыбы на русском языке,
               а начинающему оратору отточить навык публичных выступлений в домашних условиях. 
             </p>
             <a href="#" class="button">Подробнее</a>
+          </div>
           </div>
         </section>
       </main>  
@@ -165,14 +165,14 @@
             <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
           </ul>    
         </nav>
-        <nav class="social">
+        <div class="social">
           <ul class="social__list">
-            <li class="social__item"><a href="#" class="social__link"><img src="img/telegram.png" alt="telegram" class="Social__img"></a></li>
-            <li class="social__item"><a href="#" class="social__link"><img src="img/vk.png" alt="VK" class="Social__img"></a></li>
-            <li class="social__item"><a href="#" class="social__link"><img src="img/f.png" alt="Facebook" class="Social__img"></a></li>
-            <li class="social__item"><a href="#" class="social__link"><img src="img/in.png" alt="Instagram" class="Social__img"></a></li>
+            <li class="social__item"><a href="#" class="social__link"><img src="img/telegram.png" alt="telegram" class="social__img"></a></li>
+            <li class="social__item"><a href="#" class="social__link"><img src="img/vk.png" alt="VK" class="social__img"></a></li>
+            <li class="social__item"><a href="#" class="social__link"><img src="img/f.png" alt="Facebook" class="social__img"></a></li>
+            <li class="social__item"><a href="#" class="social__link"><img src="img/in.png" alt="Instagram" class="social__img"></a></li>
           </ul>
-        </nav>
+        </div>
         <addres class="contacts">
           <div class="contacts__info">Бесплатный звонок по России</div>
           <a href="tel:+78007003030" class="contacts__phone">+7 (800) 700 30 30</a>
