@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'opensans';
+  src: url(./fonts/opensans-regular-webfont.woff) format('woff');
+  src: url(./fonts/opensans-regular-webfont.woff2) format('woff2');
+  font-weight:normal ;
+  font-style:normal ;
+}
+
+@font-face {
+  font-family: 'opensans';
+  src: url(./fonts/opensans-light-webfont.woff) format('woff');
+  src: url(./fonts/opensans-light-webfont.woff2) format('woff2');
+  font-weight:normal ;
+  font-style:normal ;
+}
+
+@font-face {
+  font-family: 'opensans';
+  src: url(./fonts/opensans-semibold-webfont.woff) format('woff');
+  src: url(./fonts/opensans-semibold-webfont.woff2) format('woff2');
+  font-weight:bold ;
+  font-style:normal ;
+}
+
+.wrapper  {
+display: block;
+position: absolute;
+padding: 29px 391px 58px 391px;
+}
+
+.menu  {
+  display: inline-block;
+  position: absolute;
+  margin-left: 79px;
+}
+
+ul.menu__list li {
+  display: inline;
+  margin-left: 54px;
+}
+
+.contacts  {
+  display: inline-block;
+  position: absolute;
+  margin-left: 865px;
+}
+
+h1  {
+font-size: 72px;
+}
+
+.hello__text {
+display: block;
+margin-top: 28px;
+}
+
+.button {
+  display: block;
+  margin-top: 81px;
+}
+
+.offers {
+display: block;
+}
+
+ul.offers__list li  {
+display: inline-block;
+width: 362px;
+height: 449px;
+border: 2px solid #000;
+margin: 27px;
+}
+
+.offers__content {
+  display: block;
+  width: 362px;
+  height: 305px;
+  padding: 27px;
+}
+
