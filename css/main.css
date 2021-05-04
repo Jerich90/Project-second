@@ -57,10 +57,11 @@ p {
     background: url("../img/fon1.png") center top no-repeat, url("../img/fon2.png") center bottom 165px no-repeat;
 }
 
-.container {
+.header__container {
     position: relative;
-    height: 120px;
+    min-height: 120px;
     margin-bottom: 75px;
+    margin-top: 103px;
 }
 
 .menu__item {
@@ -133,7 +134,6 @@ p {
     text-transform: uppercase;
     display: inline-block;
     font-size: 15px;
-    margin-bottom: 26px;
 }
 
 .buttob--color--ginger {
@@ -155,8 +155,8 @@ p {
 }
 
 .offers {
-    margin-bottom: 127px;
-    margin-top: 219px;
+    margin-bottom: 124px;
+    margin-top: 245px;
 }
 
 .title--fire {
@@ -181,7 +181,7 @@ p {
 
 .offers__header {
     min-height: 144px;
-    margin-bottom: 33px;
+    margin-bottom: 26px;
     position: relative;
 }
 
@@ -198,11 +198,15 @@ p {
 
 .offers__feature {
     display: inline-block;
-    margin-bottom: 30px;
+}
+
+.offers__features {
+    margin-bottom: 20px;
 }
 
 .offers__text {
-    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-bottom: 28px;
     font-size: 14px;
     color: #303030;
 }
@@ -210,6 +214,10 @@ p {
 .offers__feature-text {
     color: #666666;
     font-size: 16px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 28px;
+    vertical-align: super;
 }
 
 .news__item {
@@ -219,6 +227,15 @@ p {
     position: relative;
     border-radius: 5px;
     overflow: hidden;
+    margin-right: 20px;
+}
+
+.news__item:last-child {
+    margin-right: 0;
+}
+
+.news {
+    margin-bottom: 150px;
 }
 
 .news__img {
@@ -234,7 +251,7 @@ p {
     right: 0;
     bottom: 0;
     padding: 25px 30px;
-    min-height: 120px;
+    min-height: 140px;
 }
 
 .news__date {
@@ -242,10 +259,16 @@ p {
     margin-bottom: 12px;
 }
 
+.news__title-head {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
 .news__title {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 52px;
 }
 
 .news__list {
@@ -254,7 +277,6 @@ p {
 
 .pagination {
     text-align: center;
-    margin-bottom: 150px;
 }
 
 .pagination__info,
@@ -311,20 +333,19 @@ p {
     display: inline-block;
     vertical-align: top;
     margin-left: -142px;
-    margin-top: 98px;
-    margin-bottom: 103px;
+    margin-top: 90px;
 }
 
 .about__title {
     font-weight: bold;
     font-size: 36px;
-    margin-bottom: 37px;
+    margin-bottom: 75px;
     color: black;
 }
 
 .about__text {
     color: black;
-    margin-bottom: 43px;
+    margin-bottom: 49px;
 }
 
 .about__text p {
@@ -333,6 +354,14 @@ p {
 
 .about__text p:last-child {
     margin-bottom: 0;
+}
+
+.maincontent {
+    margin-bottom: 74px;
+}
+
+.footer__container {
+    border-top: 1px solid #fff;
 }
 
 .footer__base {
@@ -361,7 +390,7 @@ p {
 .social {
     position: absolute;
     top: 35px;
-    right: 300px;
+    right: 257px;
 }
 
 .social__item--telegram .social__link {
