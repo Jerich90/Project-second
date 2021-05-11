@@ -503,6 +503,7 @@ html {
     flex-direction: column;
     padding-bottom: 25px;
     background: black url("../img/service-img/headline 1.png") right 20% top no-repeat;
+    background-size: cover;
 }
 
 .top-line__container {
