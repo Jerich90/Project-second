@@ -71,6 +71,8 @@ html {
 
 .main-page-wrapper {
     background: url("../img/fon1.png") center top no-repeat, url("../img/fon2.png") center bottom 165px no-repeat;
+    margin: 0 auto;
+    width: 1140px;
 }
 
 .header__container {
@@ -90,8 +92,12 @@ html {
     justify-content: flex-end;
 }
 
+.menu__list {
+    display: flex;
+    justify-content: center;
+}
+
 .menu__item {
-    display: inline-block;
     vertical-align: middle;
     margin-right: 51px;
     font-size: 14px;
@@ -101,7 +107,7 @@ html {
     margin-right: 0;
 }
 
-.wrapper__content {
+.container {
     margin: 0 auto;
     width: 1140px;
 }
@@ -442,8 +448,6 @@ html {
 }
 
 .social__item {
-    display: inline-block;
-    vertical-align: middle;
     margin-right: 10px;
 }
 
@@ -453,6 +457,8 @@ html {
 
 .social {
     margin-right: 74px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .social__item--telegram .social__link {
