@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Index</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
@@ -31,10 +31,21 @@
                     <div class="header__col header__col--align--right">
                         <addres class="contacts">
                             <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                            <div class="contacts__info">График работы</div>
+                            <div class="dropdown">
+                                <a class="contacts__info">График работы</a>
+                                <div class="dropdown__menu">
+                                    <div class="triangle"></div>
+                                    <ul class="dropdown__list">
+                                        <li class="dropdown__item dropdown__item-bold">пн-вс: 09:00 - 20:00</li>
+                                        <li class="dropdown__item">Обед: 14:00-14:30</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </addres>
                     </div>
                 </div>
+            </header>
+            <main class="maincontent container">
                 <section class="hello">
                     <div class="container__hello">
                         <h1 class="hello__title">Авторские туры по Азии</h1>
@@ -42,8 +53,6 @@
                         <a href="#" class="button button--color--ginger">Подробнее</a>
                     </div>
                 </section>
-            </header>
-            <main class="maincontent">
                 <section class="offers">
                     <div class="conteiner">
                         <h2 class="title title--fire">Горящие туры</h2>
